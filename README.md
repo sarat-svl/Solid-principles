@@ -13,3 +13,13 @@
 | **L**iskov Substitution | Subclasses should be **replaceable** for their base class |
 | **I**nterface Segregation | Don’t force classes to **implement unused methods** |
 | **D**ependency Inversion | Depend on **abstractions, not concrete implementations** |
+
+&nbsp;
+
+### 🛒 Problem Statement
+
+We need to design an Order Processing System where:
+- Orders can be processed via different payment methods (Credit Card, PayPal, etc.).
+- Orders can have different shipping methods (Standard, Express).
+- Order notifications (Email, SMS) should be sent to customers.
+- The system should be extensible for new payment/shipping/notification methods.
